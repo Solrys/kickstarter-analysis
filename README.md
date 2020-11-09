@@ -22,8 +22,7 @@ Analysis For Outcomes Based On Launch Date:
 For the first part of this analysis I will examine the outcomes based on the launch date. In order to clearly visualize this, I  isolated the year each kickstarter was launched. This was achieved by creating a new column (“Years”) from the original Kickstarter spreadsheet. I used the YEAR() function to extract the year from the “Date Created Conversion” column. In order to focus the data, a Pivot table was created with a filter for the “years” and the “Parent category”.  The parent category filter was set to “Theatre”
 In order to visualize this data the following line chart was created. 
 
-![Theater_Outcomes_vs_Launch](kickstarter-analysis/Recources/Theater_Outcomes_vs_Launch.png
-g).
+![Theater_Outcomes_vs_Launch](https://github.com/Solrys/kickstarter-analysis/blob/main/Recources/Theater_Outcomes_vs_Launch.png)
 
 ### Challenges For Outcomes Based On Launch Date:
 While this data is insightful it only reflects the outcome patterns for the Parent Category “Theatre”. A similar method of deriving outcomes based on a launch date for the subcategory “Plays” may reinforce our derived data or prove a new insight. We also have don’t have enough data to derive why the summer months perform better than the winter months. 
@@ -31,7 +30,7 @@ While this data is insightful it only reflects the outcome patterns for the Pare
 ### Analysis For Outcomes based on Goals:
 In this next part I have compiled data pertaining to the outcomes of kickstarters based on their goal amount. The Goals are divided into 12 categories of ascending bracketed goal amounts. We then measured the success, failure, and cancellations for each of those rows. This information was populated by using a COUNTIFS () formula pulling data from the original Kickstarter sheet into a new table. Once The amount of goals for each category of outcomes was retrieved, I was able to derive the total number of projects for each row using the SUM() function. After that step was complete and I calculated the total number of projects, I was able to determine a percentage for each outcome by dividing the results by the total number of projects in the same same bracket (=B2/BE). After populating the columns of percentage of successful, failed, and canceled outcomes for each row, I created a line chart titled "Outcomes Based on Goals” to visualize the relationship between the goal amount and relative outcomes. In order to visualize this data I created the following line chat:
 
-![Outcomes_vs_Goals](kickstarter-analysis/Recources/Outcomes_vs_Goals.png).
+![Outcomes_vs_Goals](https://github.com/Solrys/kickstarter-analysis/blob/main/Recources/Outcomes_vs_Goals.png)
 
 ### Challenges For Outcomes Based on goals:
 The main challenge working on this dataset was that the amount of total projects for each bracket of goals was not consistent. 
