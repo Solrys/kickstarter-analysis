@@ -1,9 +1,8 @@
-# kickstarter-analysis
-Performing analysis on kickstarter data to uncover trends
+# Kickstarting with Excel
 
 ## Overview Of Project
 
-### Background:
+### Purpose:
 The Purpose of this analysis is to provide Louise with data on how various campaigns fared in relation to their launch date and funding goals. Louise, a playwright, expressed an interest in this specific data after her play _Fever_ came close to its fundraising goal in a short amount of time. Looking to the outcomes of other Kickstarters will shed light on variables that contributed to success so that Louise may be able to potentially mirror this success for her future campaigns.
 
 ### Strategy and Metrics:
